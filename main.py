@@ -4,7 +4,7 @@ import telebot #libreria per telegram
 from telebot import types
 import sqlite3 #libreria per database
 
-API_TOKEN = '5444107099:AAGKgArvJZioPb4dSL-TaZoQ7pVSlQwflNo' #token canale telegram
+API_TOKEN = '' #token canale telegram da inserire
 
 bot = telebot.TeleBot(API_TOKEN) #connessione al canale telegram
 conn = sqlite3.connect('database_progetto.db',check_same_thread=False) #connessione al database
